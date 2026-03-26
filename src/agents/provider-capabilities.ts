@@ -46,7 +46,7 @@ const CORE_PROVIDER_CAPABILITIES: Record<string, Partial<ProviderCapabilities>> 
     dropThinkingBlockModelHints: ["claude"],
   },
   "openrouter": {
-    dropThinkingBlockModelHints: ["step"],
+    dropThinkingBlockModelHints: ["stepfun"],
   },
 };
 
