@@ -45,6 +45,9 @@ const CORE_PROVIDER_CAPABILITIES: Record<string, Partial<ProviderCapabilities>> 
     providerFamily: "anthropic",
     dropThinkingBlockModelHints: ["claude"],
   },
+  "openrouter": {
+    dropThinkingBlockModelHints: ["step"],
+  },
 };
 
 const PLUGIN_CAPABILITIES_FALLBACKS: Record<string, Partial<ProviderCapabilities>> = {
